@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
         // Get some code from a GitHub repository
-        git branch: "main", url: 'https://github.com/Rheem08/SpringBoot.git'
+        git branch: "main", url: 'https://github.com/Rheem08/SpringEc2.git'
       }
     }
         stage('Build') {
